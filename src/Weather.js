@@ -5,7 +5,9 @@ import { Audio } from "react-loader-spinner";
 export default function Weather(props) {
   function handleResponse(response) {
     alert(
-      `The weather in ${response.data.name} is ${response.data.main.temp}℉`
+      `The weather in ${response.data.name} is ${Math.round(
+        response.data.main.temp
+      )}℉`
     );
   }
 

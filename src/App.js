@@ -92,7 +92,7 @@ export default function App() {
             <footer>
               <small>
                 <a
-                  href="https://github.com/heathergallo513/GitHub-Weather-Challenge"
+                  href="https://github.com/heathergallo513/weather-react"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
